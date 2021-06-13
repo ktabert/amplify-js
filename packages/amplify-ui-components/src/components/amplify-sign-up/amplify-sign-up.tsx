@@ -281,23 +281,23 @@ export class AmplifySignUp {
 							autocomplete: 'new-password',
 						},
 					},
-					{
-						type: 'email',
-						placeholder: I18n.get(Translations.SIGN_UP_EMAIL_PLACEHOLDER),
-						required: true,
-						handleInputChange: this.handleFormFieldInputChange('email'),
-						inputProps: {
-							'data-test': 'sign-up-email-input',
-						},
-					},
-					{
-						type: 'phone_number',
-						required: true,
-						handleInputChange: this.handleFormFieldInputChange('phone_number'),
-						inputProps: {
-							'data-test': 'sign-up-phone-number-input',
-						},
-					},
+					// {
+					// 	type: 'email',
+					// 	placeholder: I18n.get(Translations.SIGN_UP_EMAIL_PLACEHOLDER),
+					// 	required: true,
+					// 	handleInputChange: this.handleFormFieldInputChange('email'),
+					// 	inputProps: {
+					// 		'data-test': 'sign-up-email-input',
+					// 	},
+					// },
+					// {
+					// 	type: 'phone_number',
+					// 	required: true,
+					// 	handleInputChange: this.handleFormFieldInputChange('phone_number'),
+					// 	inputProps: {
+					// 		'data-test': 'sign-up-phone-number-input',
+					// 	},
+					// },
 				];
 				break;
 		}
